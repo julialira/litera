@@ -42,6 +42,21 @@
   text-decoration: none;
 }
 
+
+.fundo1 .bt{
+  background: rgba(0,0,0,0.04 );
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.fundo1 .bt1{
+  border-right: solid #fd7e14;
+}
+
+
 #videos{
 
   min-height: 60vh;
@@ -66,23 +81,33 @@ padding-top: 5%;
   background: #fff;
   color: #000000;
 }
+
 #bloco-inicial{
   color: #fff;
+  background: rgba(0,0,0,0.9);
+  height: 100vh;
+
 }
 .complete{
   min-height: 95vh;
-  background: url("../img/plumas.png") no-repeat center center;
+  background: url("../img/capa.jpg") no-repeat center center;
   background-size: cover;
 }
-/*.fundo1{
-  width: 100%; 
-  margin: 1rem auto; 
-  background-color: #000000;
-}*/
+
+.complete img{
+  margin-top: 3rem;
+} 
+
+.complete .fundo1{
+    margin-top: 3rem; 
+    background: 
+    linear-gradient( 15deg, rgba(253,126,20,0.5) 0%, rgba(22,127,113,0.5) 100%),
+    linear-gradient( rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 100%);
+}
+
 .fundo{
   background-color: rgba(0, 0, 0, 1);
   width: 100%;
-
 }
 
 #form_contato .bn{
@@ -2567,16 +2592,11 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-.btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
-}
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
