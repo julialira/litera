@@ -1,0 +1,78 @@
+/* ADMIN */
+.content-page {
+  min-height: 300px;
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/plumas.png);
+  font-family: ;
+}
+.content-page .form-login {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: rgba(5, 5, 5, 0.4);
+  color: #FFF;
+}
+.content-page .form-login .logo-admin {
+  max-width: 200px;
+  margin: 0 auto;
+}
+.content-page .link-for-site {
+  display: block;
+  text-align: center;
+  color: #FFF;
+}
+.navbar-admin {
+  background-color: #1F1f1f;
+  /* font-family: 'MUSEO100'; */
+}
+.navbar-admin .img-logo {
+  max-width: 50px;
+}
+.navbar-admin .navbar-content-item .navbar-nav .nav-item a {
+  color: #FFF;
+}
+.jumbotron-admin h1 {
+  /* font-family: 'Museo500'; */
+}
+.jumbotron-admin p {
+  /* font-family: 'Museo300'; */
+}
+.content-elements-action {
+  padding-top: 35px;
+} 
+.content-elements-action .element-action {
+  padding: 40px 60px;
+  background-color: #e9ecef;
+  color: #1F1F1F;
+  /*font-family: 'MUSEO500';*/
+}
+.container-admin {
+  padding-top: 50px;
+}
+.table-list-admin {
+  padding-top: 50px;
+}
+.img-table {
+  max-width: 200px;
+}
+/* END - ADMIN */
+
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+@media (max-height: 667px) {
+    
+}
