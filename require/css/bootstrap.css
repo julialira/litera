@@ -39,13 +39,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Nova+Mono|Overlock');
 
+/*_________GALERIA________*/
+
+/*_______FIM GALERIA______*/
  #equipe .carousel-indicators{
   margin-top: 6rem; 
 }
 
 option{
-  color: #323036;
+  color: #fff;
 }
+
+
 
 .btn-outline-info a{
   text-decoration: none;
@@ -133,17 +138,17 @@ option{
 
  
 /*PLACEHOLDER*/
-#form_contato ::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
-  color: rgba(255, 255, 255, 0.3);
+::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+  color: #fff;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
 }
 /*PLACEHOLDER*/
 
@@ -214,13 +219,14 @@ p,a, input, label {
   height: auto;
 }
 
- .my-p #span{
-  border: solid 2px red;
+.my-p #span{
+
  padding-top: 0;
  margin-top: 0;
 }
-#equipe .my-p{
-  padding-top: 1rem;
+#equipe p{
+
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -235,11 +241,9 @@ p,a, input, label {
 .mt-n{
   padding-top: 10rem !important;
 }
+.my-container{
 
-.my-card{
-  background-color: rgba(0, 0, 0, 0.8);
 }
-
 .my-p{
   text-align: justify;
   padding-left: 2rem;
