@@ -14,15 +14,63 @@
 
   <!-- ________COMECO HEADER_________-->
     <?php require_once "../app/components/header.php"; ?>
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+    <h1 class="display-5 container">Galeria de Fotos </h1>
+    <p class="lead container">Bem-vindx a nossa galeria, nosso conteúdo está disponível para você!</p>
+  </div>
+</div>
   <!-- FIM HEADER-->
   <!-- ________INICIO MAIN_________-->
-  <main class="">
-     <img src="../require/img/condoriano.png">
-  </main>
     <!-- FIM MAIN-->
 
+    <?php
+    include_once("../require/functions/files.php");
+    include_once("../connection/connection.php");
+
+    $conn = connect();
+
+    $query = "SELECT * from arquivo";
+    $result = mysqli_query($conn, $query);
+
+    while($fetch = mysqli_fetch_row($result)){
+        
+        $nomeImg = $fetch[3];
+        ?>
+        <main id="page-galeria" class="container pt-4" style="">
+
+         <div class="d-flex bloco">
+              <div class="col-12 col-sm-12 col-md-8" style="">
+                 <img  style=";" class=" img-galeria col-12 col-sm-6 col-md-8 " style="margin: 0 auto;" src="../require/uploads/ <?= $nomeImg ?>">
+              </div>
+         </div>
+
+        </main>
+        <style type="text/css">
+          .img-galeria{
+            height: auto;
+          }
+
+          .bloco{
+             justify-content: center;
+
+          }
+
+        </style>
+        <?php
+        
+    }
+  #header("Location: ../app/galeria.php")
+
+?>
+ 
+
+
+
     <!-- ________SECAO FOOTER_________-->
-    <?php require_once "../app/components/footer.php"; ?>
+    <div class="pt-4">  
+       <?php require_once "../app/components/footer.php"; ?>
+    </div>
 
  
     <!-- Optional JavaScript -->
