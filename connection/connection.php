@@ -1,5 +1,5 @@
 <?php
-	function connect($banco="default", $usuario="root", $senha="12345", $hostname="") {
+	function connect($banco="default", $usuario="root", $senha="12345", $hostname="localhost") {
 		$connect = mysqli_connect($hostname, $usuario, $senha, $banco);
 
 		if(!$connect) {
