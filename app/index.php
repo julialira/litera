@@ -77,7 +77,7 @@
               <div class="d-flex container" style="flex-direction: row;">
                   <div class="mb-5">
                     <p  class="text-justify my-p">Romancista nascido no Paraguai, porém filho de pais brasileiros o escritor se autodenomina “Brasiguaio” pela forte presença em sua vida de culturas integradas pela fronteira. Enfrentou uma dificuldade linguística no início da carreira para adaptar-se com a língua portuguesa, já que nasceu no Paraguai. Para a publicação de seu livro Silvino Jacques: O último dos Bandoleiros, teve de lidar também com barreiras, por tratar de assuntos polêmicos. A obra sofreu intimidações de criminosos que consideravam o livro uma ameaça, por valer-se de críticas e relatos sobre acontecimentos da fronteira Brasil-Paraguai para a sua elaboração. Já em setembro do mesmo ano, todos os livros Silvino Jacques: O Último do Bandoleiros foram recolhidos pela justiça, retornando para circulação apenas em 2006, depois de um longo processo judicial.</p>
-                      <p id="span" class="text-justify my-p"><span >Obras: Silvino Jacques: O último dos Bandoleiros; Marti: Sem o Brilho do teu Olhar; O Maior Tesouro das Américas</span></p>
+                      <p id="span" class="text-justify my-p"><span >Obras: Silvino Jacques: O último dos Bandoleiros; Marti: Sem a luz do teu Olhar; O Maior Tesouro das Américas</span></p>
                   </div>  
                 </div>
               </div>
@@ -149,7 +149,7 @@
                   <div class="d-flex container" style="flex-direction: row;">
                     <div class="mb-5">
                       <p  class="text-justify my-p">O escritor e compositor Pedro Larrê é estudante de Letras na Universidade Federal da Grande Dourados. Pedro que sempre gostou de escrever manteve guardadas por muito tempo suas escritas, todavia não publicava-as por vergonha. Começou a expor suas obras a partir de uma ideia repentina de vender chocolates e entregar seus poemas como brinde aos clientes. Hoje, já bem popular na cidade de Dourados por seus poemas intensos e carregados de emoções e críticas. Afirma que a escrita é para ele, sobretudo, uma válvula de escape, o que faz com que suas letras sejam repletas de sentimentos e cative o público.</p>
-                      <p id="span" class="text-justify my-p"><span >Obras: </span>Lucifer Apaixonado; Aperte o Play</p>
+                      <p id="span" class="text-justify my-p"><span >Poemas: </span>Lucifer Apaixonado; Aperte o Play; Astronauta Da Consciência; Caminhante Metamórfico; Amigo; Amores Químicos; Celas Sublimes; Dragão Que Chora Fogo; Equidade; Eu Te Universo; Frágil Coração; Eu Sou Tinta; Implicitamente Machucado; O Dia Que Mais Chorei; O Rei De Mim; Príncipe Do Desafinamento; Mundo De Ilusão; Quando Me Transbordo</p>
                     </div>
                     
                   </div>
@@ -197,14 +197,14 @@
         <div class="container pt-4 ">
           <h3 class="text-center">CONHEÇA O PROJETO!</h3>
           <p class="text-justify my-p">Olá Serumaninhxs! Sejam Bem-Vindxs ao site do Literatura Favorável. Nós temos como objetivo principal mostrar e divulgar a literatura produzida na Região de Dourados-MS, buscando enfatizar a importância dessa literatura e seu valor cultural.
-          Acreditamos na importância de se estudar e conhcer a literatura como um todo, e o quanto a mesma contribui social e culturalmente na formação do ser humano. Esperamos que apreciem nosso conteúdo e busque conhecer um pouqinho mais sobre as obras e escritores de Mato Grosso do Sul</p>
+          Acreditamos na importância de se estudar e conhecer a literatura como um todo, e o quanto a mesma contribui social e culturalmente na formação do ser humano. Esperamos que apreciem nosso conteúdo e busque conhecer um pouquinho mais sobre as obras e escritores de Mato Grosso do Sul</p>
         </div>
        <div style="width: 70%" class="container">
           <hr/>
        </div>
         <div class="container">
           <h3 class="text-center">QUEM É A LIFA?</h3>
-          <p  class="my-p  text-justify">A lifa consiste no primeiro mascote criado para o projeto Literatura Favorável. A proposta de criar a Lifa, foi a de ilustrar um animalzinho que representasse o estado do Mato Grosso do Sul e também ilustrasse a perspectiva e definição que os estudantes do projeto tinham a cerca da literatura. E essa aparência da Lifa? Bom, nossa mascote consiste em uma capivara - animal simbolo de Mato Grosso do Sul -, que possui asas e chifre de unicórnio. Talvez agora você esteja se perguntando o porque de criar um mascote com asas e chifre! A Lifa como dito anteriormente, é a personifição de uma das definicoes que tinhamos a respeito da literatura, acreditamos que a literatura não resume-se apenas em páginas de papel com escritas aleatórias! Entendemos a arte da literatura como um meio de transpor limites, ou seja, é um modo com o qual conseguimos explorar, conhecer, e descobrir além da nossa zona de conforto e espaço com o qual estamos acostumados, nos possibilitando ir além da propria imaginação!</p>
+          <p  class="my-p  text-justify">A lifa consiste no primeiro mascote criado para o projeto Literatura Favorável. A proposta de criar a Lifa, foi a de ilustrar um animalzinho que representasse o estado do Mato Grosso do Sul e também ilustrasse a perspectiva e definição que os estudantes do projeto tinham a cerca da literatura. E essa aparência da Lifa? Bom, nossa mascote consiste em uma capivara - animal caracteristico de Mato Grosso do Sul -, que possui asas e chifre de unicórnio. Talvez agora você esteja se perguntando o porque de criar um mascote com asas e chifre! A Lifa, como dito anteriormente, é a personifição de uma das definições que tinhamos a respeito da literatura, acreditamos que a literatura não resume-se apenas em páginas de papel com escritas bonitas! Entendemos a arte da literatura como um meio de transpor limites, ou seja, é um modo com o qual conseguimos explorar, conhecer, e descobrir além da nossa zona de conforto e espaço com o qual estamos acostumados, nos possibilitando ir além da propria imaginação!</p>
         </div>
 
         <div class="" id="equipe">
@@ -240,7 +240,7 @@
               <div class="carousel-item">
                 <div class="box-texto container" style="padding-top: 4rem;">
                   <h4 class="text-center">KARINA VICELLI</h4>
-                  <p  class="my-p">A Mãezona do projeto. Foi a primeira com um parafuso a menos a abracar o Literatura Favoravel. Adora a literatura de corpo e alma, sempre encorpora personagens e vai a fundo quando tem um objetivo na cachola. Sempre querendo abraçar o mundo e dar o sangue por seus orientados e projetos. Embarca nas nossas palhaçadas e loucuras. A orientadora mais doisa de pedra do IFMS - Campus Dourados! Queremos agradecer por ssempre nos apoiar e lutar conosco no desenvolvimento do Literatura Favorável!</p>
+                  <p  class="my-p">A Mãezona do projeto. Foi a primeira com um parafuso a menos a abraçar o Literatura Favoravel. Adora a literatura de corpo e alma, sempre encorpora personagens e vai a fundo quando tem um objetivo na cachola. Sempre querendo abraçar o mundo e dar o sangue por seus orientados e projetos. Embarca nas nossas palhaçadas e loucuras. A orientadora mais doida de pedra do IFMS - Campus Dourados! Queremos agradecer por sempre nos apoiar e lutar conosco no desenvolvimento do Literatura Favorável!</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -284,21 +284,21 @@
 
           <div class="form-row">
             <div class="form-group col-md-6">
-              <input type="text" class="form-control bn" id="inputNome" name="nome" placeholder="Digite seu nome">
+              <input type="text" class="form-control bn" id="inputNome" name="nome" placeholder="Digite seu nome" required>
             </div>
 
             <div class="form-group col-md-6">
-              <input type="email" class="form-control bn" id="inputEmail4" name="email" placeholder="Email">
+              <input type="email" class="form-control bn" id="inputEmail4" name="email" placeholder="Email" required>
             </div>
           </div>
           
           <div class="form-row">
             <div class="form-group col-md-8">
-              <input type="text" class="form-control bn" id="inputCity" name="cidade" placeholder="Cidade">
+              <input type="text" class="form-control bn" id="inputCity" name="cidade" placeholder="Cidade" required>
             </div>
             <div class="form-group col-md-4">
-              <select id="inputState" name="estado" class="form-control bn">
-                <option selected >Estado</option>
+              <select id="inputState" name="estado" class="form-control bn" required>
+                <option value="">Estado</option>
                 <option value="ac">AC</option>
                 <option value="al">AL</option>
                 <option value="ap">AP</option>
@@ -332,7 +332,7 @@
 
           <div class="form-row">
             <div class="form-group col-md-12">
-              <textarea style="color: #fff" class="form-control textarea" id="exampleFormControlTextarea1 bn" name="mensagem" rows="3" placeholder="Deixe aqui sua mensagem!"></textarea>
+              <textarea style="color: #fff" class="form-control textarea" id="exampleFormControlTextarea1 bn" name="mensagem" rows="3" placeholder="Deixe aqui sua mensagem!" required></textarea>
             </div>
           </div>
           
