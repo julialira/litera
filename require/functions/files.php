@@ -1,11 +1,11 @@
 <?php
 
-function saveFile($file, $url = NULL) {
+function saveFile($name, $file, $url = NULL) {
   date_default_timezone_set("Brazil/East");
 
   if(isset($file) && !empty($url)) {
-    $ext = strtolower(substr($_FILES[$file]['name'], -5));
-    $new_name = md5(uniqid(time())) . $ext;
+    $ext = strtolower(substr($_FILES[$file]['name'], -4));
+    $new_name = $name . $ext;
     $dir = $url;
 
     move_uploaded_file($_FILES['file']['tmp_name'], $dir.$new_name);
@@ -24,7 +24,7 @@ function changeFiles($newFile, $oldFile, $url) {
   return $new_name;
 }
 
-function saveImage($image, $url) {
+function saveImage($nome, $image, $url) {
   $img = $_FILES[$image];
   
   if (!empty($img["name"])) {
@@ -68,7 +68,7 @@ function saveImage($image, $url) {
       preg_match("/\.(gif|bmp|png|jpg|jpeg){1}$/i", $img["name"], $ext);
  
           // Gera um nome único para a imagem
-          $nome_imagem = md5(uniqid(time())) . "." . $ext[1];
+          $nome_imagem = $nome . "." . $ext[1];
  
           // Caminho de onde ficará a imagem
           $caminho_imagem = $url.$nome_imagem;
