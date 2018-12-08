@@ -24,14 +24,14 @@ if(isset($_SESSION['user'])) {
           </div>
           <div class="form-group">
             <label for="text">Usuário</label>
-            <input type="text" class="form-control" name="user" id="user" aria-describedby="user" placeholder="Email ou Usuário">
+            <input type="text" class="form-control" name="user" id="user" aria-describedby="user" required placeholder="Email ou Usuário">
           </div>
           <div class="form-group">
             <label for="password">Senha</label>
-            <input type="password" class="form-control" name="password" id="password" placeholder="Senha">
+            <input type="password" class="form-control" name="password" id="password" required placeholder="Senha">
           </div>
-          <button type="submit" class="btn">Login</button>
-          <a class="link-for-site" href="../app/index.php">Ir para o site</a>
+          <button type="submit" class="btn" style="width: 100%;">Login</button>
+          <a class="link-for-site mt-4" href="../app/index.php">Ir para o site</a>
         </form>
       </div>
     </div>
