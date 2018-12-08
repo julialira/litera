@@ -1,43 +1,51 @@
 <?php
+	function update($coluna,$valor,$tabela, $where) {
 
-	function select($tabela, $coluna="*", $where=NULL, $ordem="", $limite="") {
+		// São arrays?
+		if ((is_array($coluna)) and (is_array($valor))) {
 
-		// SQL da consulta
-		$sql = "SELECT {$coluna} FROM {$tabela} WHERE {$where}  {$ordem} {$limite}";
+			// Tem o mesmo número de elementos?
+			if(count($coluna) == count($valor)) {
 
-		// Conectou?
-		if ($conexao = connect()) {
+				$valor_coluna = NULL;
 
-			// Consegui consultar?
-			if ($query = mysqli_query($conexao, $sql)) {
-
-				//Encontrou alguma coisa?
-				if (mysqli_num_rows($query) > 0) {
-
-					$resultados_totais = array();
-
-					// Recebe os dados individuais
-					while ($resultado = mysqli_fetch_assoc($query)) {
-						$resultados_totais[] = $resultado;
-					}
-
-					// Fecha conexão
-					closeConnection($conexao);
-
-					return $resultados_totais;
-
-				} else {
-					return false;
+				// Colocar arrais em uma string
+				for ($i=0; $i < count($coluna); $i++) { 
+					
+					$valor_coluna .= "{$coluna[$i]} = '{$valor[$i]}',";
 				}
+
+				// Tirando a virgula da ultima posição
+
+				$valor_coluna = substr($valor_coluna, 0,-1);
+
+				// Montar SQL
+
+				$atualizar = "UPDATE {$tabela} SET {$valor_coluna} WHERE {$where}";
 
 			} else {
 				return false;
 			}
+		} else {
+			// Montar SQL
+			$atualizar = "UPDATE {$tabela} SET {$coluna} = '{$valor}' WHERE {$where}";			
+		}
 
+		// Conectou?
+		if ($conexao = connect()) {
+
+			// inseriu?
+			if(mysqli_query($conexao, $atualizar)) {
+				// fecha conexao
+				closeConnection($conexao);
+				return true;
+			} else {
+				echo $atualizar."<br>";
+				echo "Query inválida!<br>";die (trigger_error());
+				return false;
+			}
 		} else {
 			return false;
 		}
-
 	}
-
 ?>
