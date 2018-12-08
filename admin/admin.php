@@ -28,7 +28,7 @@ if(!isset($_SESSION['user'])) {
     <div class="row d-flex justify-content-center">
       <div class="col-lg-10 col-md-10 mb-10 ">
         <!-- <a href="slides.php" class="element-action">Slides</a> -->
-        <form action="../app/galeria.php" method="post" enctype="multipart/form-data">
+      <form action="../connection/cadastro_evento2.php" method="post" enctype="multipart/form-data">
       <fieldset>
  
       <!-- Título do formulário -->
@@ -38,15 +38,15 @@ if(!isset($_SESSION['user'])) {
       <div class="form-group">
         <div class="form-group">
             <label for="text">Nome Arquivo: </label>
-            <input type="text" class="form-control" name="name" id="name" aria-describedby="arquive" placeholder="Nome do Arquivo">
+            <input type="text" class="form-control" name="name" id="name" aria-describedby="arquive" placeholder="Nome do Arquivo" required>
           </div>
           <div class="form-group">
             <label for="evento">Evento/Entrevista</label>
-            <input type="text" class="form-control" name="event" id="event" placeholder="Nome do Evento/Entrevista">
+            <input type="text" class="form-control" name="event" id="event" placeholder="Nome do Evento/Entrevista" required>
           </div>
           <div class="">
             <label for="evento">Arquivo:</label>
-            <input type="file" class="" name="file" id="file" >
+            <input type="file" class="" name="file" id="file"required >
           </div>
           
       </div>    
@@ -56,7 +56,7 @@ if(!isset($_SESSION['user'])) {
       <div class="form-group">
         <label class="col-lg-10 col-md-10 mb-10 control-label" for="submit"></label>
         <div class="">
-          <!--  action="../require/apps/galeria.php"--><button type="submit" class="btn btn-inverse"  method="POST" style="width: 100%;" action="../require/functions/files.php">Enviar</button>
+          <!--  action="../require/apps/galeria.php"--><button type="submit" class="btn btn-inverse" style="width: 100%;" >Enviar</button>
         </div>
       </div>
  
